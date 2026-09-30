@@ -9,8 +9,7 @@
     "dev": "node --watch src/server.js",
     "seed": "node scripts/seed.js",
     "token:expired": "node scripts/make-expired-token.js",
-    "test:security": "node scripts/security-test.js",
-    "evidence": "node scripts/collect-evidence.js"
+    "test:security": "node scripts/security-test.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

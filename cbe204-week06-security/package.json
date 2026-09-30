@@ -1,0 +1,22 @@
+{
+  "name": "cbe204-week06-security",
+  "version": "1.0.0",
+  "description": "CBE204 Week 6 - Secure Login Prototype (JWT) built on the Week 5 Task Manager API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js",
+    "token:expired": "node scripts/make-expired-token.js",
+    "test:security": "node scripts/security-test.js",
+    "evidence": "node scripts/collect-evidence.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

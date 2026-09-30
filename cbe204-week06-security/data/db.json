@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": 101,
+      "username": "alice",
+      "passwordHash": "$2a$10$JYquAOQIhT/qef3Is/Q6i.BzgwRjrBksAOXkoM2pGb9zjGCcPjWzi",
+      "role": "student",
+      "createdAt": "2026-09-30T13:26:06.773Z"
+    },
+    {
+      "id": 102,
+      "username": "bob",
+      "passwordHash": "$2a$10$igkv0Ka0RyOSXhEoORJSVuktZFNUJvJixYYRbkFROhISkj7/hH.yK",
+      "role": "admin",
+      "createdAt": "2026-09-30T13:26:06.773Z"
+    },
+    {
+      "id": 103,
+      "username": "john",
+      "passwordHash": "$2a$10$MJ.CeMTdck/G4GENObs/au92rvD9xfxDGSXMJIRxyb7hrp.J2w4Fm",
+      "role": "student",
+      "createdAt": "2026-09-30T13:26:06.773Z"
+    },
+    {
+      "id": 104,
+      "username": "student_1741",
+      "passwordHash": "$2a$10$F2RutmadDG4isNBBNX94mu/q9Z1ZsJ7tHuA.h.D2iUAoyIs/5P4gq",
+      "role": "student",
+      "createdAt": "2026-09-30T13:26:26.105Z"
+    },
+    {
+      "id": 105,
+      "username": "hacker_43566",
+      "passwordHash": "$2a$10$DSWULToRnlVgGFDuYptPy.SAaeB/jKsmdH0G0LG2f.W5fYT3YjKZK",
+      "role": "student",
+      "createdAt": "2026-09-30T13:26:28.838Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Study JavaScript",
+      "completed": false,
+      "ownerId": 101
+    },
+    {
+      "id": 2,
+      "title": "Build REST API",
+      "completed": false,
+      "ownerId": 101
+    },
+    {
+      "id": 3,
+      "title": "Review security checklist",
+      "completed": false,
+      "ownerId": 102
+    },
+    {
+      "id": 4,
+      "title": "John's private task",
+      "completed": false,
+      "ownerId": 103
+    },
+    {
+      "id": 5,
+      "title": "Finish Week 6 lab",
+      "completed": false,
+      "ownerId": 101
+    }
+  ],
+  "revokedTokens": [
+    {
+      "jti": "ca0f200f-aa4b-414d-aa7a-4eac6e52604d",
+      "exp": 1790775686
+    }
+  ]
+}

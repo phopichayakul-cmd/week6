@@ -183,5 +183,5 @@ Postman collection) before submission.
 
 ## Notes
 
-- If port 3000 is already in use (for example by another demo API), set `PORT=3100` in `.env` and change the Postman collection variable `baseUrl` to `http://localhost:3100`. The screenshots in `evidence/` were taken on port 3100.
-- `evidence/` holds the Postman run screenshots (`postman1-5.png`), a screenshot of `data/db.json` (`db_notepad.png`) and the automated test results (`security-test-results.md`).
+- If port 3000 is already in use (for example by another demo API), set `PORT=3100` in `.env` and change the Postman collection variable `baseUrl` to `http://localhost:3100`. The Postman screenshots in the lab sheet were taken on port 3100.
+- `evidence/security-test-results.md` holds the automated test results. The Postman and `db.json` screenshots are in the lab sheet.
